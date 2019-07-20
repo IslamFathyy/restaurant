@@ -1,0 +1,422 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <button class="btn btn-dark move">To Top</button>
+
+    <header id="header">
+
+        <nav id="navbar" class="fixed-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 logo_parent">
+                        <div class="logo">
+                            <a href="#">Restaurant</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10 ">
+                        <div class="Links">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Prices</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Offers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="overlay" id="overlay">
+
+            <div class="header_title">
+                <h1>The Best Food Taste</h1>
+                <p>Come to Make your Special Meal </p>
+                <p>Order Now!</p>
+                <button class="btn btn-outline-warning w-25 btn_book">Book</button>
+                <button class="btn btn-outline-light w-25">Contact us</button>
+            </div>
+        </div>
+
+    </header>
+
+    <!------------------------------------------------------------------------------------------------->
+
+
+    <section class="container section4">
+        <div class="title_ourstory">
+            <h2>Our Story</h2>
+        </div>
+        <div class="row story_div">
+
+            <div class="col-md-6 title_story"><img src="images/chef-1417239_1280.png"></div>
+
+            <div class="col-md-6">
+                <div class="info">
+                    <P><span>Restaurant </span>Quisque sit amet turpis et ipsum elementum facilisis. Quisque sed placerat libero. Pellentesque nec tellus sollicitudin, sollicitudin ligula non, tristique nibh Donec vitae turpis sagittis, cursus nunc ac, aliquet nunc. Donec viverra vel massa at posuere.</P>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!------------------------------------------------------------------------------------------------->
+
+    <section class="container section2">
+        <div class="row">
+            <div class="col-md-12 title_section2">
+                <h2>New Categories</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="contain_img">
+                    <img src="images/breakfast-1804457_1280.jpg">
+                    <h3>New Food Category</h3>
+                    <p>Check Food Details!</p>
+                    <button class="btn btn-primary">Details</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="contain_img">
+                    <img src="images/hamburger-1238246_1280.jpg">
+                    <h3>New Food Category</h3>
+                    <p>Check Food Details!</p>
+                    <button class="btn btn-primary">Details</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="contain_img">
+                    <img src="images/pizza-3007395_1280.jpg">
+                    <h3>New Food Category</h3>
+                    <p>Check Food Details!</p>
+                    <button class="btn btn-primary">Details</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="contain_img">
+                    <img src="images/pancakes-2020863_1280.jpg">
+                    <h3>New Food Category</h3>
+                    <p>Check Food Details!</p>
+                    <button class="btn btn-primary">Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------>
+
+    <section class="section5 container-fluid">
+        <div class="title_menu">
+            <h2>Food Menu</h2>
+        </div>
+        <div class="btn_contain">
+            <button class="btn btn-outline-primary active btn_filter" onclick="setview('all')" id="all_btn">All</button>
+            <button class="btn btn-outline-primary btn_filter" onclick="setview('b')" id="b_btn">BreakFast</button>
+            <button class="btn btn-outline-primary btn_filter" onclick="setview('l')" id="l_btn">Launch</button>
+            <button class="btn btn-outline-primary btn_filter" onclick="setview('d')" id="d_btn">Dinner</button>
+        </div>
+
+        <!--------------------------------------------------------------------------------------->
+
+        <div class="container-fluid">
+            <div class="row r">
+                <div class="col-lg-6 column launch filters">
+
+                    <div class="menu_img divo"><img src="images/food-salad-healthy-lunch.jpg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$79.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 column break filters">
+
+                    <div class="menu_img divo"><img src="images/pexels-photo-1099680.jpeg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$55.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row r">
+                <div class="col-lg-6 column break filters">
+
+                    <div class="menu_img divo"><img src="images/pexels-photo-1234535.jpeg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$34.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 column dinner filters">
+
+                    <div class="menu_img divo"><img src="images/pexels-photo-262959.jpeg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$99.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row r">
+                <div class="col-lg-6 column dinner filters">
+
+                    <div class="menu_img divo"><img src="images/pexels-photo-928475.jpeg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$66.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 column break filters">
+
+                    <div class="menu_img divo"><img src="images/abstract-barbecue-barbeque-bbq-161519.jpeg"></div>
+                    <div class="menu_item divo">
+                        <div class="menu_info">
+                            <h4>Cupcake Recipes</h4>
+                            <h4><span>$79.00</span></h4>
+                            <p><span>- JuiceFruit</span><span>- Checken</span><span>- Cherry</span></p>
+                            <p><span>- Vegetablet</span><span>- Milk</span><span>- Potato</span></p>
+                            <p><span>- Tomato</span><span>- Chilli</span><span>- Sesame</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid">
+        <div class="book_now">
+            <div class="overlay_booknow"></div>
+            <div class="div_bookinfo">
+                <h2>Book A Table Now !</h2>
+                <button class="btn btn-outline-light">Book Now</button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!----------------------------------------------------------------------------------------------->
+
+    <section class="container offers">
+        <div class="title_offer">
+            <h2>Check New Offers!</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="offer_left">
+                    <h3>OFFERS TO ALL CUSTOMERS</h3>
+                    <p>Order Online Now !</p>
+                    <p>And You Will Get Code With your Food</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="offer_right">
+                    <h3>Send Us Your Code Now !</h3>
+                    <button class="btn btn-danger">Send Code</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------------------------------------------------------->
+
+    <section class="container">
+        <div class="title_comments">
+            <h2>Our Clients Comments</h2>
+        </div>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/1521905074_indian-cuisine.jpg" class="d-block w-100" alt="...">
+                        <div class="overlay"></div>
+                        <div class="carousel_caption">
+                            <div class="img_comments"><img src="images/photo-1506919258185-6078bba55d2a.jpg"></div>
+                            <h5>Wonderful CupCake !</h5>
+                            <p>" Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdum. "</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/HD-Mouth-Watering-Food-Wallpapers-for-Desktop-9_acdb3e4bb37d0e3bcc26c97591d3dd6b.jpg" class="d-block w-100" alt="...">
+                        <div class="overlay"></div>
+                        <div class="carousel_caption">
+                            <div class="img_comments"><img src="images/download.jpg"></div>
+                            <h5>Wonderful CupCake !</h5>
+                            <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. "</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/food-wallpapers-grill-delicious-wallpaper.jpg" class="d-block w-100" alt="...">
+                        <div class="overlay"></div>
+                        <div class="carousel_caption">
+                            <div class="img_comments"><img src="images/n-japanesemen-b-20180302.jpg"></div>
+                            <h5>Wonderful CupCake !</h5>
+                            <p>" Praesent commodo cursus magna, vel scelerisque nisl consectetur.Nulla vitae elit libero, a pharetra. "</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left_icon" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right_icon" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------------------------->
+
+
+    <section class="container">
+        <div class="branchs_div">
+            <div class="title_branch">
+                <h2>Our Branches</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 branch">
+                    <div class="branch_img"><img src="images/cafe-3537801_1920.jpg"></div>
+                    <div class="branch_info">
+                        <h3><span>Dubai </span>Branch</h3>
+                        <p class="address">20, floor, Queenslad Victoria Building. 60 california street california USA</p>
+                        <button class="btn btn-danger">Contact Branch</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 branch">
+                    <div class="branch_img"><img src="images/restaurant-3597677_640.jpg"></div>
+                    <div class="branch_info">
+                        <h3><span>Roma </span>Branch</h3>
+                        <p class="address">20, floor, Queenslad Victoria Building. 60 california street california USA</p>
+                        <button class="btn btn-danger">Contact Branch</button>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 branch">
+                    <div class="branch_img"><img src="images/dining-room-103464_1920.jpg"></div>
+                    <div class="branch_info">
+                        <h3><span>Paris </span>Branch</h3>
+                        <p class="address">20, floor, Queenslad Victoria Building. 60 california street california USA</p>
+                        <button class="btn btn-danger">Contact Branch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------------------>
+
+    <footer class="container-fluid">
+        <div class="container foot">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_div">
+                        <h4>Restaurant Information</h4>
+                        <p>Address: 14 Whatson Street - NewYork </p>
+                        <p>Phone: +908-829-2790</p>
+                        <p>Email: info@gmail.com</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <div class="footer_div">
+
+                        <h4>Follow Us Now</h4>
+                        <p class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></p>
+                        <p class="icon"><a href="#"><i class="fab fa-youtube"></i></a></p>
+                        <p class="icon"><a href="#"><i class="fab fa-instagram"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!----------------------------------------------------------------------------->
+
+
+    <div class="loadingscreen">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------------------->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
